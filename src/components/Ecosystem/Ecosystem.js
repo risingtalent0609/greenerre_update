@@ -7,12 +7,8 @@ import EcosystemItem from "../EcosystemItem/EcosystemItem";
 const Ecosystem = () => {
   return (
     <>
-      <div>
-        <img
-          id="logo_ecosystem"
-          src="/greenDAO_invis_bg.png"
-          alt="logo goes here"
-        />
+      <div id="logo_ecosystem">
+        <img src="/greenDAO_invis_bg.png" alt="logo goes here" />
       </div>
       <div className="p-5">
         <h1 className="text-center mb-4">Ecosystem</h1>
