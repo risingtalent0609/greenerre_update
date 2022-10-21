@@ -7,7 +7,7 @@ const Ecosystem = () => {
   return (
     <>
       <div style={{ display: "flex", alignContent: "center" }}>
-        <img src="greenDAO invis bg.png" style={{ width: "100" }} />
+        <img src="greenDAO_invis_bg.png" style={{ width: "100" }} />
       </div>
       <div className="p-5">
         <h1 className="text-center mb-4">Ecosystem</h1>
