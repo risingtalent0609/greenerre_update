@@ -8,6 +8,7 @@ const Ecosystem = () => {
     <>
       <div>
         <img
+          id="logo_ecosystem"
           src="/greenDAO_invis_bg.png"
           alt="logo goes here"
           style={{
