@@ -79,8 +79,8 @@ const HomeCarousel = () => {
         style={{
           position: "absolute",
           margin: "auto",
-          top: 20,
-          left: 50,
+          left: window.innerWidth,
+          top: 200,
         }}
       >
         <h3>Sustainability Made Easy</h3>
