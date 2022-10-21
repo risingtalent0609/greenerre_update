@@ -5,10 +5,17 @@ import "./EcosystemItem.scss";
 const EcosystemItem = (props) => {
   return (
     <div className="item-control">
-      <Link to={props.alink}>
-        <img src={props.image} alt="item" />
-        <h4 className="text-center">{props.text}</h4>
-      </Link>
+      {props.type === "local" ? (
+        <Link to={props.alink}>
+          <img src={props.image} alt="item" />
+          <h4 className="text-center">{props.text}</h4>
+        </Link>
+      ) : (
+        <a href={props.alink}>
+          <img src={props.image} alt="item" />
+          <h4 className="text-center">{props.text}</h4>
+        </a>
+      )}
     </div>
   );
 };

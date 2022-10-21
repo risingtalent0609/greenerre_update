@@ -1,17 +1,11 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
+// import { Link } from "react-router-dom";
 
 import EcosystemItem from "../EcosystemItem/EcosystemItem";
 const Ecosystem = () => {
   return (
     <div className="p-5">
-      <img
-        src="/site_logo.webp"
-        alt="site logo"
-        style={{
-          margin: "auto",
-        }}
-      />
       <h1 className="text-center mb-4">Ecosystem</h1>
       <Row lg={4} md={2} xs={1} className="eco-content">
         <Col className="mb-2">
@@ -19,23 +13,31 @@ const Ecosystem = () => {
             text="GreenDAOla"
             alink="/greenDAOla"
             image="/token.png"
+            type="local"
           />
         </Col>
         <Col className="mb-2">
           <EcosystemItem
             text="Altlanteans Official Club"
-            alink="http://altlanteansoc.com"
+            alink="https://altlanteansoc.com/"
+            type="out"
             image="/aoc.jpg"
           />
         </Col>
         <Col className="mb-2">
-          <EcosystemItem text="Vpets" alink="/vpets" image="/vpets.png" />
+          <EcosystemItem
+            text="Vpets"
+            alink="/vpets"
+            image="/vpets.png"
+            type="local"
+          />
         </Col>
         <Col className="mb-2">
           <EcosystemItem
             text="TheGreenerMarket"
             alink="/market"
             image="marketplace.png"
+            type="local"
           />
         </Col>
         {/* <Col className="mb-2">

@@ -26,7 +26,7 @@ const Footer = () => {
             <a href="/service">Services</a>
           </li>
           <li>
-            <a href="/token">GreenDAO</a>
+            <a href="/greendao">GreenDAO</a>
           </li>
           <li>
             <a href="/project">Projects</a>
