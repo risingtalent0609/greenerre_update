@@ -83,10 +83,10 @@ const HomeCarousel = () => {
           alignItems: "center",
           margin: "auto",
           top: 200,
+          backgroundColor: "white",
         }}
-        className="logoimage"
       >
-        <h3>Sustainability Made Easy</h3>
+        <h3 style={{ color: "green" }}>Sustainability Made Easy</h3>
         <img src="/site_logo.webp" alt="site logo" />
       </div>
     </>
