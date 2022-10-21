@@ -80,9 +80,8 @@ const HomeCarousel = () => {
         style={{
           position: "absolute",
           margin: "auto",
-          display: "flex",
-          alignItems: "center",
           top: 200,
+          left: "40%",
         }}
       >
         <div style={{ backgroundColor: "white" }}>
