@@ -6,20 +6,11 @@ import EcosystemItem from "../EcosystemItem/EcosystemItem";
 const Ecosystem = () => {
   return (
     <>
-      <div
-        className="p-5"
-        style={{
-          position: "absolute",
-          top: "20%",
-          width: "100%",
-          display: "block",
-          "justify-content": "center",
-        }}
-      >
+      <div>
         <img
           src="/greenDAO_invis_bg.png"
           alt="logo goes here"
-          style={{ width: "30" }}
+          style={{ margin: "auto" }}
         />
       </div>
       <div className="p-5">
