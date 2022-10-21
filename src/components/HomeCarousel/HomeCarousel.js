@@ -81,12 +81,11 @@ const HomeCarousel = () => {
           position: "absolute",
           display: "flex",
           alignItems: "center",
-          margin: "auto",
           top: 200,
         }}
         className="logoimage"
       >
-        <h3>Sustainability Made Easy</h3>
+        <h3 style={{ display: "block" }}>Sustainability Made Easy</h3>
         <img src="/site_logo.webp" alt="site logo" />
       </div>
     </>
