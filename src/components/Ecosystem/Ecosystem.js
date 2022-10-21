@@ -10,7 +10,6 @@ const Ecosystem = () => {
         alt="site logo"
         style={{
           margin: "auto",
-          width: "80%",
         }}
       />
       <h1 className="text-center mb-4">Ecosystem</h1>
