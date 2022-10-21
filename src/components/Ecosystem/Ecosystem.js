@@ -6,8 +6,16 @@ import EcosystemItem from "../EcosystemItem/EcosystemItem";
 const Ecosystem = () => {
   return (
     <>
-      <div style={{ display: "flex", alignContent: "center" }}>
-        <img src="greenDAO_invis_bg.png" style={{ width: "100" }} />
+      <div
+        style={{
+          position: "absolute",
+          top: "20%",
+          width: "100%",
+          display: "flex",
+          "justify-content": "center",
+        }}
+      >
+        <img src="greenDAO_invis_bg.png" style={{ width: "70" }} />
       </div>
       <div className="p-5">
         <h1 className="text-center mb-4">Ecosystem</h1>
