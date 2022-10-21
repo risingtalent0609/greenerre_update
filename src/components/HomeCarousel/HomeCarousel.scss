@@ -50,13 +50,13 @@
   .carousel-container {
     height: calc(60vh - 100px);
   }
-}
 
-@media only screen and (max-width: 600px) {
   #logoImage {
-    display: 'hidden';
+    display: 'none';
   }
 }
+
+@media only screen and (max-width: 600px) {}
 
 .banner-description {
   position: absolute;
