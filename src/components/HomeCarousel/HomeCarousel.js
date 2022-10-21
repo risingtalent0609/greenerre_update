@@ -32,8 +32,10 @@ const HomeCarousel = () => {
                 width="150px"
                 alt="esg reporting"
               />
-              What is ESG Reporting? <br /> And why should it be your
-              organization's new focus?
+              <span style={{ fontSize: "10rem" }}>
+                What is ESG Reporting? <br /> And why should it be your
+                organization's new focus?
+              </span>
             </div>
           </Link>
         </Carousel.Item>
