@@ -76,19 +76,20 @@ const HomeCarousel = () => {
           </Link>
         </Carousel.Item>
       </Carousel>
-      <div
-        style={{
-          position: "absolute",
-          display: "flex",
-          margin: "auto",
-          top: 200,
-          alignContent: "center",
-        }}
-        id="logoImage"
-      >
-        <div style={{ backgroundColor: "white", padding: "40px" }}>
-          <h3 style={{ color: "green" }}>Sustainability Made Easy</h3>
-          <img src="/site_logo.webp" alt="site logo" />
+      <div>
+        <div
+          style={{
+            // position: "absolute",
+            // display: "flex",
+            // margin: "auto",
+            top: 200,
+          }}
+          id="logoImage"
+        >
+          <div style={{ backgroundColor: "white", padding: "40px" }}>
+            <h3 style={{ color: "green" }}>Sustainability Made Easy</h3>
+            <img src="/site_logo.webp" alt="site logo" />
+          </div>
         </div>
       </div>
     </>
