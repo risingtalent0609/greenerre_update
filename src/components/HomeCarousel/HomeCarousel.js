@@ -83,6 +83,7 @@ const HomeCarousel = () => {
           top: 200,
           left: "40%",
         }}
+        id="logoImage"
       >
         <div style={{ backgroundColor: "white", padding: "10px" }}>
           <h3 style={{ color: "green" }}>Sustainability Made Easy</h3>
