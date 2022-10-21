@@ -12,14 +12,14 @@ const Ecosystem = () => {
           position: "absolute",
           top: "20%",
           width: "100%",
-          display: "flex",
+          display: "block",
           "justify-content": "center",
         }}
       >
         <img
           src="/greenDAO_invis_bg.png"
           alt="logo goes here"
-          // style={{ width: "70" }}
+          style={{ width: "30" }}
         />
       </div>
       <div className="p-5">
