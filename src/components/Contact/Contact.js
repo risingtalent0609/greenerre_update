@@ -5,8 +5,8 @@ import "./Contact.scss";
 const Contact = () => {
   return (
     <div className="contact-item py-5">
-      <div className="container" style={{ width: "75%" }}>
-        <div className="row">
+      <div className="container">
+        <div className="row w-75">
           <h2 className="text-center text-white py-5">Contact</h2>
           <div className="row">
             <div className="col-md-12 col-sm-12 px-5">
