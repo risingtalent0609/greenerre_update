@@ -13,9 +13,6 @@ const HomeCarousel = () => {
 
   return (
     <>
-      <div className="uponImage">
-        <img src="/site_logo.webp" alt="site logo" />
-      </div>
       <Carousel
         activeIndex={index}
         onSelect={handleSelect}
@@ -78,6 +75,9 @@ const HomeCarousel = () => {
           </Link>
         </Carousel.Item>
       </Carousel>
+      <div className="uponImage">
+        <img src="/site_logo.webp" alt="site logo" />
+      </div>
     </>
   );
 };
