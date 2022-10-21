@@ -10,7 +10,11 @@ const Ecosystem = () => {
         <img
           src="/greenDAO_invis_bg.png"
           alt="logo goes here"
-          style={{ margin: "auto" }}
+          style={{
+            margin: "auto",
+            width: "30%",
+            padding: "2px",
+          }}
         />
       </div>
       <div className="p-5">
