@@ -5,7 +5,14 @@ import EcosystemItem from "../EcosystemItem/EcosystemItem";
 const Ecosystem = () => {
   return (
     <div className="p-5">
-      <img src="/site_logo.webp" alt="site logo" />
+      <img
+        src="/site_logo.webp"
+        alt="site logo"
+        style={{
+          margin: "auto",
+          width: "80%",
+        }}
+      />
       <h1 className="text-center mb-4">Ecosystem</h1>
       <Row lg={5} md={2} xs={1} className="eco-content">
         <Col className="mb-2">
