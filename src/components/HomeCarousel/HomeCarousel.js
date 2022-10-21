@@ -84,6 +84,7 @@ const HomeCarousel = () => {
           margin: "auto",
           top: 200,
         }}
+        className="logoimage"
       >
         <h3>Sustainability Made Easy</h3>
         <img src="/site_logo.webp" alt="site logo" />
