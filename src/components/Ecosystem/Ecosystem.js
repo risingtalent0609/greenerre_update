@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 // import { Link } from "react-router-dom";
+import "./Ecosystem.scss";
 
 import EcosystemItem from "../EcosystemItem/EcosystemItem";
 const Ecosystem = () => {
