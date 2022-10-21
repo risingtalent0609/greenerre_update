@@ -12,24 +12,36 @@
   }
 }
 
+.uponImage {
+  position: 'absolute';
+  z-index: 1;
+}
+
 .carousel-container {
   height: calc(100vh - 100px);
+
   .carousel-inner {
     height: 100%;
+
     .carousel-item {
       height: 100%;
+
       img {
         height: 100%;
       }
+
       .carousel-caption {
         background-color: white;
+
         h3 {
           color: green;
           text-shadow: 0px 0px 5px lightgray;
         }
+
         p {
           color: black;
         }
+
         img {
           margin-left: auto;
           margin-right: auto;
@@ -54,19 +66,21 @@
   padding-left: 5rem;
   color: white;
   font-size: 32px;
+
   b {
-      color: green;
-    }
+    color: green;
+  }
+
   a {
     text-decoration: underline;
     color: white;
-    }
+  }
 }
 
 .carousel-caption {
-  top: 1.25rem!important;
-  left: 30%!important;
-  right: 30%!important;
-  bottom: auto!important;
-  
+  top: 1.25rem !important;
+  left: 30% !important;
+  right: 30% !important;
+  bottom: auto !important;
+
 }

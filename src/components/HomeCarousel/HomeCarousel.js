@@ -13,7 +13,7 @@ const HomeCarousel = () => {
 
   return (
     <>
-      <div className="UponImage">
+      <div className="uponImage">
         <img src="/site_logo.webp" alt="site logo" />
       </div>
       <Carousel
