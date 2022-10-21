@@ -5,6 +5,7 @@ import EcosystemItem from "../EcosystemItem/EcosystemItem";
 const Ecosystem = () => {
   return (
     <div className="p-5">
+      <img src="/site_logo.webp" alt="site logo" />
       <h1 className="text-center mb-4">Ecosystem</h1>
       <Row lg={5} md={2} xs={1} className="eco-content">
         <Col className="mb-2">
@@ -31,13 +32,13 @@ const Ecosystem = () => {
             image="marketplace.png"
           />
         </Col>
-        <Col className="mb-2">
+        {/* <Col className="mb-2">
           <EcosystemItem
             text="Coming soon"
             alink="/soon"
             image="/coming-soon.png"
           />
-        </Col>
+        </Col> */}
       </Row>
     </div>
   );
