@@ -80,7 +80,7 @@ const HomeCarousel = () => {
         style={{
           position: "absolute",
           margin: "auto",
-          left: "50%",
+          left: "40%",
           top: 200,
         }}
       >
