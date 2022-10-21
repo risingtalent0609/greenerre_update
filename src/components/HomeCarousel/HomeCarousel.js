@@ -13,6 +13,7 @@ const HomeCarousel = () => {
 
   return (
     <>
+      {console.log(window.innerWidth)}
       <Carousel
         activeIndex={index}
         onSelect={handleSelect}
@@ -79,7 +80,7 @@ const HomeCarousel = () => {
         style={{
           position: "absolute",
           margin: "auto",
-          left: window.innerWidth,
+          left: "50%",
           top: 200,
         }}
       >
