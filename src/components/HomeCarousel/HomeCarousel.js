@@ -79,8 +79,9 @@ const HomeCarousel = () => {
       <div
         style={{
           position: "absolute",
+          display: "flex",
+          alignItems: "center",
           margin: "auto",
-          left: "40%",
           top: 200,
         }}
       >
