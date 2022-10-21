@@ -81,7 +81,7 @@ const HomeCarousel = () => {
           position: "absolute",
           margin: "auto",
           top: 200,
-          left: "40%",
+          alignContent: "center",
         }}
         id="logoImage"
       >
