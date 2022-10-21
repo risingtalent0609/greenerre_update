@@ -7,6 +7,7 @@ const Ecosystem = () => {
   return (
     <>
       <div
+        className="p-5"
         style={{
           position: "absolute",
           top: "20%",
@@ -15,7 +16,7 @@ const Ecosystem = () => {
           "justify-content": "center",
         }}
       >
-        <img src="greenDAO_invis_bg.png" style={{ width: "70" }} />
+        <img src="/greenDAO_invis_bg.png" style={{ width: "70" }} />
       </div>
       <div className="p-5">
         <h1 className="text-center mb-4">Ecosystem</h1>
