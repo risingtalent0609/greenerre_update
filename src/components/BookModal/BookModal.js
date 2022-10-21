@@ -22,7 +22,7 @@ const BookModal = (props) => {
       <Modal.Body>
         <Form>
           <Form.Group className="mb-3">
-            <Form.Label>First Name</Form.Label>
+            <Form.Label>Name</Form.Label>
             <Form.Control type="text" placeholder="Name"></Form.Control>
           </Form.Group>
           <Form.Group className="mb-3">
