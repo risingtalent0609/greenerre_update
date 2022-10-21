@@ -75,7 +75,7 @@ const HomeCarousel = () => {
           </Link>
         </Carousel.Item>
       </Carousel>
-      <div>
+      <div style={{ position: "absolute", margin: "auto" }}>
         <img src="/site_logo.webp" alt="site logo" />
       </div>
     </>
