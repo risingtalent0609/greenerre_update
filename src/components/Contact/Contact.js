@@ -9,14 +9,14 @@ const Contact = () => {
         <div className="row">
           <h2 className="text-center text-white py-5">Contact</h2>
           <div className="row">
-            <div className="col-md-6 col-sm-12 px-5">
+            <div className="col-md-12 col-sm-12 px-5">
               <div className="form-item my-4">
                 <label className="contact-form-label">First Name *</label>{" "}
                 <br />
                 <input type="text" className="contact-form-item" />
               </div>
             </div>
-            <div className="col-md-6 col-sm-12 px-5">
+            <div className="col-md-12 col-sm-12 px-5">
               <div className="form-item my-4">
                 <label className="contact-form-label">Last Name *</label> <br />
                 <input type="text" className="contact-form-item" />
@@ -24,13 +24,13 @@ const Contact = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-6 col-sm-12 px-5">
+            <div className="col-md-12 col-sm-12 px-5">
               <div className="form-item my-4">
                 <label className="contact-form-label">Email *</label> <br />
                 <input type="text" className="contact-form-item" />
               </div>
             </div>
-            <div className="col-md-6 col-sm-12 px-5">
+            <div className="col-md-12 col-sm-12 px-5">
               <div className="form-item my-4">
                 <label className="contact-form-label">Subject *</label> <br />
                 <input type="text" className="contact-form-item" />
@@ -38,7 +38,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="row align-items-end">
-            <div className="col-md-9 col-sm-12 py-4 px-5 form-item">
+            <div className="col-md-12 col-sm-12 py-4 px-5 form-item">
               <label className="contact-form-label">Message *</label> <br />
               <textarea rows={3} className="w-100" />
             </div>
