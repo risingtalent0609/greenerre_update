@@ -23,11 +23,15 @@ const BookModal = (props) => {
         <Form>
           <Form.Group className="mb-3">
             <Form.Label>First Name</Form.Label>
-            <Form.Control type="text" placeholder="First Name"></Form.Control>
+            <Form.Control type="text" placeholder="Name"></Form.Control>
           </Form.Group>
           <Form.Group className="mb-3">
             <Form.Label>Last Name</Form.Label>
-            <Form.Control type="text" placeholder="Last Name"></Form.Control>
+            <Form.Control type="text" placeholder="Organisation"></Form.Control>
+          </Form.Group>
+          <Form.Group className="mb-3">
+            <Form.Label>Last Name</Form.Label>
+            <Form.Control type="text" placeholder="Position"></Form.Control>
           </Form.Group>
           <Form.Group className="mb-3">
             <Form.Label>Email</Form.Label>

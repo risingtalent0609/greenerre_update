@@ -7,18 +7,24 @@ const Contact = () => {
     <div className="contact-item py-5">
       <div className="container">
         <div className="row w-75" style={{ margin: "auto" }}>
-          <h2 className="text-center text-white py-5">Contact</h2>
+          <h2 className="text-center text-white py-5">Get in touch</h2>
           <div className="row">
             <div className="col-md-12 col-sm-12 px-5">
               <div className="form-item my-4">
-                <label className="contact-form-label">First Name *</label>{" "}
+                <label className="contact-form-label">Name *</label> <br />
+                <input type="text" className="contact-form-item" />
+              </div>
+            </div>
+            <div className="col-md-12 col-sm-12 px-5">
+              <div className="form-item my-4">
+                <label className="contact-form-label">Organisation *</label>{" "}
                 <br />
                 <input type="text" className="contact-form-item" />
               </div>
             </div>
             <div className="col-md-12 col-sm-12 px-5">
               <div className="form-item my-4">
-                <label className="contact-form-label">Last Name *</label> <br />
+                <label className="contact-form-label">Position *</label> <br />
                 <input type="text" className="contact-form-item" />
               </div>
             </div>

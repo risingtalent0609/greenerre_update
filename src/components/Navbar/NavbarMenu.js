@@ -48,7 +48,7 @@ const NavbarMenu = () => {
             <Nav.Link href="/services" className="px-4">
               Services
             </Nav.Link>
-            <Nav.Link href="/token" className="px-4">
+            <Nav.Link href="/greendao" className="px-4">
               GreenDAO
             </Nav.Link>
             <NavDropdown

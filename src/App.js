@@ -1,4 +1,3 @@
-
 import { Routes, Route } from "react-router-dom";
 
 //import pages
@@ -33,7 +32,7 @@ function App() {
         <Route path="/project" element={<Project />} />
         <Route path="/outreach-education" element={<OutreachEducation />} />
         <Route path="/advisor" element={<Advisor />} />
-        <Route path="/token" element={<Token />} />
+        <Route path="/greendao" element={<Token />} />
         <Route path="/greenDAOla" element={<GreenDAOlaPage />} />
         <Route path="/vpets" element={<VPetsPage />} />
         <Route path="/market" element={<GreenerMarketPage />} />
