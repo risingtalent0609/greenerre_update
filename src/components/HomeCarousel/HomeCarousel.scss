@@ -52,6 +52,12 @@
   }
 }
 
+@media only screen and (max-width: 600px) {
+  #logoImage {
+    display: 'none';
+  }
+}
+
 .banner-description {
   position: absolute;
   left: 0%;
