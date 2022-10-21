@@ -20,6 +20,7 @@ const HomeCarousel = () => {
       >
         <Carousel.Item>
           <img
+            style={{ width: "100%" }}
             className="d-block w-100"
             src="/slide/slide1.webp"
             alt="First slide"
@@ -39,6 +40,7 @@ const HomeCarousel = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
+            style={{ width: "100%" }}
             className="d-block w-100"
             src="/slide/slide2.webp"
             alt="Second slide"
@@ -59,6 +61,7 @@ const HomeCarousel = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
+            style={{ width: "100%" }}
             className="d-block w-100"
             src="/slide/slide3.webp"
             alt="Third slide"
