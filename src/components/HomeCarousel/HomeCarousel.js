@@ -22,17 +22,17 @@ const HomeCarousel = () => {
           <img
             style={{ width: "100%" }}
             className="d-block w-100"
-            src="/slide/slide1.webp"
+            src="/slide/esg-reporting.jpg"
             alt="First slide"
           />
 
           <Link>
             <div className="banner-description">
-              <img
+              {/* <img
                 src="/slide/esg-reporting.jpg"
                 width="150px"
                 alt="esg reporting"
-              />
+              /> */}
               What is ESG Reporting? <br /> And why should it be your
               organization's new focus?
             </div>
@@ -42,17 +42,17 @@ const HomeCarousel = () => {
           <img
             style={{ width: "100%" }}
             className="d-block w-100"
-            src="/slide/slide2.webp"
+            src="/slide/tree-planting.jpg"
             alt="Second slide"
           />
 
           <Link>
             <div className="banner-description">
-              <img
+              {/* <img
                 src="/slide/tree-planting.jpg"
                 width="150px"
                 alt="tree planting"
-              />
+              /> */}
               Do you know you can EARN while doing sustainable activities?{" "}
               <br />
               You can click here to find an activity near you today.
@@ -63,16 +63,16 @@ const HomeCarousel = () => {
           <img
             style={{ width: "100%" }}
             className="d-block w-100"
-            src="/slide/slide3.webp"
+            src="/slide/web3-business.png"
             alt="Third slide"
           />
           <Link>
             <div className="banner-description">
-              <img
+              {/* <img
                 src="/slide/web3-business.png"
                 width="150px"
                 alt="web3 business"
-              />
+              /> */}
               How your business can use WEB3?
             </div>
           </Link>

@@ -15,14 +15,6 @@ const Ecosystem = () => {
         <Row lg={4} md={2} xs={1} className="eco-content">
           <Col className="mb-2">
             <EcosystemItem
-              text="GreenDAOla"
-              alink="/greenDAOla"
-              image="/token.png"
-              type="local"
-            />
-          </Col>
-          <Col className="mb-2">
-            <EcosystemItem
               text="Altlanteans Official Club"
               alink="https://altlanteansoc.com/"
               type="out"
@@ -31,12 +23,20 @@ const Ecosystem = () => {
           </Col>
           <Col className="mb-2">
             <EcosystemItem
+              text="GreenDAOla"
+              alink="/greenDAOla"
+              image="/token.png"
+              type="local"
+            />
+          </Col>
+          {/* <Col className="mb-2">
+            <EcosystemItem
               text="Vpets"
               alink="/vpets"
               image="/vpets.png"
               type="local"
             />
-          </Col>
+          </Col> */}
           <Col className="mb-2">
             <EcosystemItem
               text="TheGreenerMarket"
