@@ -5,7 +5,8 @@ import { Row, Col, Container } from "react-bootstrap";
 import "./GreendaoContent.scss";
 
 const Greendao_content = () => {
-  const [summary, useSummary] = useState(false);
+    const [summary, useSummary] = useState(false);
+    console.log(summary)
   const clickSummary = () => {
     useSummary(!summary);
   };
@@ -15,7 +16,7 @@ const Greendao_content = () => {
         <Col>
           <h2>What is GreenDAO(GD)</h2>
           <div onClick={clickSummary}>Summary</div>
-          {summary ? (
+          {!summary ? (
             <p>
               GreenDAO is a platform that incentivises participation in ESG
               activities, bridging event organisers with participants and
@@ -33,9 +34,7 @@ const Greendao_content = () => {
           ) : (
             <></>
           )}
-          <p>
-            -
-            <br />
+          
             <div></div>
             Who does it serve
             <br />- GreenDAO serves both individuals and businesses. By breaking
