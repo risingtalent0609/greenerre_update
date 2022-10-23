@@ -4,7 +4,7 @@ import { Row, Col } from "react-bootstrap";
 import "./Ecosystem.scss";
 
 import EcosystemItem from "../EcosystemItem/EcosystemItem";
-import Greendao_content from "../Greendaocontent/Greendaocontent";
+import GreendaoContent from "../GreendaoContent/GreendaoContent";
 const Ecosystem = () => {
   return (
     <>
@@ -58,8 +58,9 @@ const Ecosystem = () => {
         </Col> */}
         </Row>
       </div>
-
-      <Greendao_content />
+      <div>
+        <GreendaoContent />
+      </div>
     </>
   );
 };
