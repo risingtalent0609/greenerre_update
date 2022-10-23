@@ -92,7 +92,7 @@ const HomeCarousel = () => {
           <div
             style={{
               backgroundColor: "white",
-              padding: "80px",
+              // padding: "80px",
               "padding-left": "120px",
               "padding-right": "120px",
             }}
