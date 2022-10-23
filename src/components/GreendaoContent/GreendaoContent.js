@@ -1,20 +1,22 @@
 import React from "react";
+import { useState } from "react";
 import { Row, Col, Container } from "react-bootstrap";
 
 import "./GreendaoContent.scss";
 
 const Greendao_content = () => {
-  let summary = false;
+  const [summary, setSummary] = useState(false);
   console.log(summary);
   const clickSummary = () => {
-    summary = !summary;
+    console.log("----------------------------");
+    setSummary(!summary);
   };
   return (
     <Container>
       <Row>
         <Col>
           <h2>What is GreenDAO(GD)</h2>
-          <button onClick={clickSummary}>Summary</button>
+          <button onClick={clickSummary()}>Summary</button>
           {!summary ? (
             <p>
               GreenDAO is a platform that incentivises participation in ESG
@@ -35,10 +37,10 @@ const Greendao_content = () => {
           )}
 
           {/* <div></div> */}
+          <p>Who does it serve</p>
           <p>
-            Who does it serve
-            <br />- GreenDAO serves both individuals and businesses. By breaking
-            down any and all barriers for anyone who wants to engage in
+            GreenDAO serves both individuals and businesses. By breaking down
+            any and all barriers for anyone who wants to engage in
             sustainability activities and get rewarded for their participation.
             Businesses can support local sustainability efforts at a grassroots
             level, rather than rely purely on carbon credits for offsets.
