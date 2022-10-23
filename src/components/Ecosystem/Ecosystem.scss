@@ -4,6 +4,10 @@
         width: 55%;
         padding-top: 30px;
     }
+
+    img {
+        width: 100px;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -11,6 +15,10 @@
         margin: auto;
         width: 55%;
         padding-top: 30px;
+    }
+
+    img {
+        width: 130px;
     }
 }
 
@@ -20,6 +28,10 @@
         width: 50%;
         padding-top: 30px;
     }
+
+    img {
+        width: 140px;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -27,6 +39,10 @@
         margin: auto;
         width: 30%;
         padding-top: 30px;
+    }
+
+    img {
+        width: 180px;
     }
 }
 
@@ -36,4 +52,12 @@
         width: 30%;
         padding-top: 30px;
     }
+
+    img {
+        width: 200px;
+    }
+}
+
+img {
+    aspect-ratio: 1;
 }
