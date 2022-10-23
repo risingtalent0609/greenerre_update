@@ -3,9 +3,9 @@ import { Row, Col } from "react-bootstrap";
 
 import "./greendao_content.scss";
 
-const greendao_content = () => {
+const Greendao_content = () => {
   return (
-    <>
+    <div>
       <Row>
         <Col className="content p-5">
           <h2 className="content_title">What is GreenDAO(GD)</h2>
@@ -33,8 +33,8 @@ const greendao_content = () => {
           </p>
         </Col>
       </Row>
-    </>
+    </div>
   );
 };
 
-export default greendao_content;
+export default Greendao_content;
