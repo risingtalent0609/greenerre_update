@@ -5,10 +5,10 @@ import { Row, Col, Container } from "react-bootstrap";
 import "./GreendaoContent.scss";
 
 const Greendao_content = () => {
-  const [summary, useSummary] = useState(false);
+  let summary = false;
   console.log(summary);
   const clickSummary = () => {
-    useSummary(!summary);
+    summary = !summary;
   };
   return (
     <Container>
