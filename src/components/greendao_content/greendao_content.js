@@ -1,10 +1,12 @@
 import React from "react";
+import { Row, Col } from "react-bootstrap";
+
 import "./greendao_content.scss";
 
 const greendao_content = () => {
   return (
     <>
-      <ROW>
+      <Row>
         <Col className="content">
           <h2 className="content_title">What is GreenDAO(GD)</h2>
           <p>
@@ -30,7 +32,7 @@ const greendao_content = () => {
             level, rather than rely purely on carbon credits for offsets.
           </p>
         </Col>
-      </ROW>
+      </Row>
     </>
   );
 };
