@@ -20,6 +20,7 @@ const Greendao_content = () => {
             onClick={() => {
               setSummary(!summary);
             }}
+            className="w-100 border "
           >
             Summary
           </button>
