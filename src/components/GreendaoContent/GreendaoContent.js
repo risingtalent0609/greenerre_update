@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 
-import "./greendao_content.scss";
+import "./GreendaoContent.scss";
 
 const Greendao_content = () => {
   return (
@@ -23,10 +23,9 @@ const Greendao_content = () => {
             network for like-minded individuals in the ustainability space to
             share information and collaborate.
             <br />
-            - Who does it serve
-            <br />
-            GreenDAO serves both individuals and businesses. By breaking down
-            any and all barriers for anyone who wants to engage in
+            Who does it serve
+            <br />- GreenDAO serves both individuals and businesses. By breaking
+            down any and all barriers for anyone who wants to engage in
             sustainability activities and get rewarded for their participation.
             Businesses can support local sustainability efforts at a grassroots
             level, rather than rely purely on carbon credits for offsets.
