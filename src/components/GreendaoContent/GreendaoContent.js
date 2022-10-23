@@ -17,7 +17,7 @@ const Greendao_content = () => {
         <Col>
           <h2>What is GreenDAO(GD)</h2>
           <button onClick={clickSummary()}>Summary</button>
-          {!summary ? (
+          {summary ? (
             <p>
               GreenDAO is a platform that incentivises participation in ESG
               activities, bridging event organisers with participants and
