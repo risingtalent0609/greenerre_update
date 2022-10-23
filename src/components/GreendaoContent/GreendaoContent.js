@@ -5,8 +5,8 @@ import { Row, Col, Container } from "react-bootstrap";
 import "./GreendaoContent.scss";
 
 const Greendao_content = () => {
-    const [summary, useSummary] = useState(false);
-    console.log(summary)
+  const [summary, useSummary] = useState(false);
+  console.log(summary);
   const clickSummary = () => {
     useSummary(!summary);
   };
@@ -34,8 +34,9 @@ const Greendao_content = () => {
           ) : (
             <></>
           )}
-          
-            <div></div>
+
+          {/* <div></div> */}
+          <p>
             Who does it serve
             <br />- GreenDAO serves both individuals and businesses. By breaking
             down any and all barriers for anyone who wants to engage in
