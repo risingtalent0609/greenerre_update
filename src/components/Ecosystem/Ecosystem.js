@@ -8,7 +8,11 @@ const Ecosystem = () => {
   return (
     <>
       <div id="logo_ecosystem">
-        <img src="/greenDAO_invis_bg.png" alt="logo goes here" />
+        <img
+          className="my_pic"
+          src="/greenDAO_invis_bg.png"
+          alt="logo goes here"
+        />
       </div>
       <div className="p-5">
         <h1 className="text-center mb-4">Ecosystem</h1>
