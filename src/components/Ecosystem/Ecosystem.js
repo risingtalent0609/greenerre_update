@@ -8,17 +8,14 @@ const Ecosystem = () => {
   return (
     <>
       <div id="logo_ecosystem">
-        <img
-          className="my_pic"
-          src="/greenDAO_invis_bg.png"
-          alt="logo goes here"
-        />
+        <img src="/greenDAO_invis_bg.png" alt="logo goes here" />
       </div>
       <div className="p-5">
         <h1 className="text-center mb-4">Ecosystem</h1>
         <Row lg={3} md={2} xs={1} className="eco-content">
           <Col className="mb-2">
             <EcosystemItem
+              className="my_pic"
               text="Altlanteans Official Club"
               alink="https://altlanteansoc.com/"
               type="out"
@@ -27,6 +24,7 @@ const Ecosystem = () => {
           </Col>
           <Col className="mb-2">
             <EcosystemItem
+              className="my_pic"
               text="GreenDAOla"
               alink="/greenDAOla"
               image="/token.png"
@@ -43,6 +41,7 @@ const Ecosystem = () => {
           </Col> */}
           <Col className="mb-2">
             <EcosystemItem
+              className="my_pic"
               text="TheGreenerMarket"
               alink="/market"
               image="marketplace.png"
