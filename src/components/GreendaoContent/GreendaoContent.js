@@ -7,8 +7,8 @@ const Greendao_content = () => {
   return (
     <div>
       <Row>
-        <Col className="content p-5">
-          <h2 className="content_title">What is GreenDAO(GD)</h2>
+        <Col>
+          <h2>What is GreenDAO(GD)</h2>
           <p>
             - GreenDAO is a platform that incentivises participation in ESG
             activities, bridging event organisers with participants and
@@ -31,6 +31,9 @@ const Greendao_content = () => {
             Businesses can support local sustainability efforts at a grassroots
             level, rather than rely purely on carbon credits for offsets.
           </p>
+        </Col>
+        <Col>
+          <h2>How the GreenDAO ecosystem works</h2>
         </Col>
       </Row>
     </div>
