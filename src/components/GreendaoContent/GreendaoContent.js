@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import { Row, Col, Container } from "react-bootstrap";
 
 import "./GreendaoContent.scss";
