@@ -98,7 +98,7 @@ const HomeCarousel = () => {
             }}
           >
             <h3 style={{ color: "green" }}>Sustainability Made Easy</h3>
-            <img src="/site_logo.webp" width="500px" alt="site logo" />
+            <img src="/Greenerre word.jpg" width="500px" alt="site logo" />
           </div>
         </div>
       </div>
