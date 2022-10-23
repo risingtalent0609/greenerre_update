@@ -7,16 +7,22 @@ import "./GreendaoContent.scss";
 const Greendao_content = () => {
   const [summary, setSummary] = useState(false);
   console.log(summary);
-  const clickSummary = () => {
-    console.log("----------------------------");
-    setSummary(!summary);
-  };
+  //   const clickSummary = () => {
+  //     console.log("----------------------------");
+  //     setSummary(!summary);
+  //   };
   return (
     <Container>
       <Row>
         <Col>
           <h2>What is GreenDAO(GD)</h2>
-          <button onClick={clickSummary()}>Summary</button>
+          <button
+            onClick={() => {
+              setSummary(!summary);
+            }}
+          >
+            Summary
+          </button>
           {summary ? (
             <p>
               GreenDAO is a platform that incentivises participation in ESG
