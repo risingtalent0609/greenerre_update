@@ -13,7 +13,7 @@ const Ecosystem = () => {
       <div className="p-5">
         <h1 className="text-center mb-4">Ecosystem</h1>
         <Row lg={4} md={2} xs={1} className="eco-content">
-          <Col className="mb-2">
+          <Col className="lg-10 mb-2">
             <EcosystemItem
               text="Altlanteans Official Club"
               alink="https://altlanteansoc.com/"
