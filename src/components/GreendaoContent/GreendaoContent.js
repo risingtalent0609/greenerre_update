@@ -41,27 +41,27 @@ const Greendao_content = () => {
    */
   const changeWhatContent = (contents) => {
     switch (contents) {
-      case WHATSUMMARY:
-        return (
-          <>
-            <p>
-              <b>GreenDAO</b> is a platform that incentivises participation in
-              ESG activities, bridging event organisers with participants and
-              appropriate funding. <b>GreenDAO</b> aims to make sustainability
-              accessible to everyone within each of their various capacities.
-              The platform will qualify and quantify carbon-related activities,
-              as well as, non-carbon related activities such as social
-              philanthropy, equality and conservation.
-            </p>
-            <p>
-              The Decentralised Autonomous Organisation (DAO) serves to create a
-              consensus network to determine the value of various non-carbon
-              related activities, and to create a diverse and international
-              network for like-minded individuals in the sustainability space to
-              share information and collaborate.
-            </p>
-          </>
-        );
+      // case WHATSUMMARY:
+      //   return (
+      //     <>
+      //       <p>
+      //         <b>GreenDAO</b> is a platform that incentivises participation in
+      //         ESG activities, bridging event organisers with participants and
+      //         appropriate funding. <b>GreenDAO</b> aims to make sustainability
+      //         accessible to everyone within each of their various capacities.
+      //         The platform will qualify and quantify carbon-related activities,
+      //         as well as, non-carbon related activities such as social
+      //         philanthropy, equality and conservation.
+      //       </p>
+      //       <p>
+      //         The Decentralised Autonomous Organisation (DAO) serves to create a
+      //         consensus network to determine the value of various non-carbon
+      //         related activities, and to create a diverse and international
+      //         network for like-minded individuals in the sustainability space to
+      //         share information and collaborate.
+      //       </p>
+      //     </>
+      //   );
       case WHATSERVE:
         return (
           <p>
@@ -109,6 +109,27 @@ const Greendao_content = () => {
             </p>
           </>
         );
+      default:
+        return (
+          <>
+            <p>
+              <b>GreenDAO</b> is a platform that incentivises participation in
+              ESG activities, bridging event organisers with participants and
+              appropriate funding. <b>GreenDAO</b> aims to make sustainability
+              accessible to everyone within each of their various capacities.
+              The platform will qualify and quantify carbon-related activities,
+              as well as, non-carbon related activities such as social
+              philanthropy, equality and conservation.
+            </p>
+            <p>
+              The Decentralised Autonomous Organisation (DAO) serves to create a
+              consensus network to determine the value of various non-carbon
+              related activities, and to create a diverse and international
+              network for like-minded individuals in the sustainability space to
+              share information and collaborate.
+            </p>
+          </>
+        );
     }
   };
   /**
@@ -126,18 +147,18 @@ const Greendao_content = () => {
    */
   const changeHowContent = (contents) => {
     switch (contents) {
-      case HOWCOMMUNITY:
-        return (
-          <p>
-            Community members are required to actively own an Altlanteans
-            Official Club (AOC) NFT. While there is a wallet limit of 10 NFTs,
-            each wallet is only entitled to 1 vote within the DAO regardless of
-            the number of AOC NFTs owned. Community members have to be doxxed
-            via Polygon ID to be able to vote in community polls. Participation
-            in voting events will earn community members{" "}
-            <b>GreenDAOla ($GD) tokens</b>.
-          </p>
-        );
+      // case HOWCOMMUNITY:
+      //   return (
+      //     <p>
+      //       Community members are required to actively own an Altlanteans
+      //       Official Club (AOC) NFT. While there is a wallet limit of 10 NFTs,
+      //       each wallet is only entitled to 1 vote within the DAO regardless of
+      //       the number of AOC NFTs owned. Community members have to be doxxed
+      //       via Polygon ID to be able to vote in community polls. Participation
+      //       in voting events will earn community members{" "}
+      //       <b>GreenDAOla ($GD) tokens</b>.
+      //     </p>
+      //   );
       case HOWTOKENS:
         return (
           <p>
@@ -190,6 +211,18 @@ const Greendao_content = () => {
             businesses to support grassroots decarbonisation activities and
             social ventures in their localised area of operations, bringing
             positive improvements to the local communities.
+          </p>
+        );
+      default:
+        return (
+          <p>
+            Community members are required to actively own an Altlanteans
+            Official Club (AOC) NFT. While there is a wallet limit of 10 NFTs,
+            each wallet is only entitled to 1 vote within the DAO regardless of
+            the number of AOC NFTs owned. Community members have to be doxxed
+            via Polygon ID to be able to vote in community polls. Participation
+            in voting events will earn community members{" "}
+            <b>GreenDAOla ($GD) tokens</b>.
           </p>
         );
     }
