@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import "./GreendaoContent.scss";
 /**
