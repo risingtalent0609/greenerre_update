@@ -229,10 +229,10 @@ const Greendao_content = () => {
   };
   return (
     <Container>
-      <h2 className="text-center mb-10 mt-10 text-success fs-1">
+      <h2 className="text-center mb-10 mt-10 text-success fs-1" id="whatTitle">
         What is GreenDAO(GD)
       </h2>
-      <Row className="text-center font-bold fs-5 text-muted">
+      <Row className="text-center font-bold fs-5 ">
         <Col
           lg={2}
           id={WHATSUMMARY}
@@ -245,7 +245,7 @@ const Greendao_content = () => {
               : "border-bottom mr-3 my-2"
           }
         >
-          <a href="#whatContent" id={WHATSUMMARY}>
+          <a href="#whatTitle" id={WHATSUMMARY}>
             Summary
           </a>
         </Col>
@@ -261,7 +261,7 @@ const Greendao_content = () => {
               : "border-bottom mr-3 my-2"
           }
         >
-          <a href="#whatContent" id={WHATSERVE}>
+          <a href="#whatTitle" id={WHATSERVE}>
             Who does it serve
           </a>
         </Col>
@@ -277,7 +277,7 @@ const Greendao_content = () => {
               : "border-bottom mr-3 my-2"
           }
         >
-          <a href="#whatContent" id={WHATPROBLEM}>
+          <a href="#whatTitle" id={WHATPROBLEM}>
             Problem statement
           </a>
         </Col>
@@ -292,18 +292,21 @@ const Greendao_content = () => {
               : "border-bottom my-2"
           }
         >
-          <a href="#whatContent" id={WHATREASONTOCREATE}>
-            Why did we create <b>GreenDAO</b>
+          <a href="#whatTitle" id={WHATREASONTOCREATE}>
+            Why did we create GreenDAO
           </a>
         </Col>
       </Row>
-      <Container className="text-muted mt-10" id="whatContent">
+      <Container className=" mt-10" id="whatContent">
         {changeWhatContent(what_contents)}
       </Container>
-      <h1 className="mt-20 mb-10 fs text-center text-success fs-1">
+      <h1
+        className="mt-20 mb-10 fs text-center text-success fs-1"
+        id="howTitle"
+      >
         How the GreenDAO ecosystem works
       </h1>
-      <Row className="font-bold fs-5 text-muted text-center">
+      <Row className="font-bold fs-5  text-center">
         <Col
           lg
           id={HOWCOMMUNITY}
@@ -316,7 +319,7 @@ const Greendao_content = () => {
               : "border-bottom mr-3 my-2"
           }
         >
-          <a href="#howContent" id={HOWCOMMUNITY}>
+          <a href="#howTitle" id={HOWCOMMUNITY}>
             Community of GreenDAO
           </a>
         </Col>
@@ -332,7 +335,7 @@ const Greendao_content = () => {
               : "border-bottom mr-3 my-2"
           }
         >
-          <a href="#howContent" id={HOWTOKENS}>
+          <a href="#howTitle" id={HOWTOKENS}>
             GreenDAOla ($GD) Tokens
           </a>
         </Col>
@@ -348,7 +351,7 @@ const Greendao_content = () => {
               : "border-bottom mr-3 my-2"
           }
         >
-          <a href="#howContent" id={HOWGETTOKENS}>
+          <a href="#howTitle" id={HOWGETTOKENS}>
             How to get $GD tokens
           </a>
         </Col>
@@ -364,7 +367,7 @@ const Greendao_content = () => {
               : "border-bottom mr-3 my-2"
           }
         >
-          <a href="#howContent" id={HOWDOTOKENS}>
+          <a href="#howTitle" id={HOWDOTOKENS}>
             What to do with $GD tokens
           </a>
         </Col>
@@ -380,12 +383,12 @@ const Greendao_content = () => {
               : "border-bottom my-2"
           }
         >
-          <a href="#howContent" id={HOWBUSINESS}>
+          <a href="#howTitle" id={HOWBUSINESS}>
             How businesses can take part in GreenDAO
           </a>
         </Col>
       </Row>
-      <Container className="text-muted mb-20 my-10" id="howContent">
+      <Container className=" mb-20 my-10" id="howContent">
         {changeHowContent(how_contents)}
       </Container>
     </Container>
