@@ -12,7 +12,7 @@ const Ecosystem = () => {
         <img src="/greenDAO_invis_bg.png" alt="logo goes here" />
       </div>
       <div className="p-5">
-        <h1 className="text-center mb-4">Ecosystem</h1>
+        <h1 className="text-center mt-10 mb-10 text-success fs-0">Ecosystem</h1>
         <Row lg={3} md={2} xs={1} className="eco-content">
           <Col className="mb-2">
             <EcosystemItem
