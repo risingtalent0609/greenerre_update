@@ -42,7 +42,7 @@ const HomeCarousel = () => {
           <img
             style={{ width: "100%" }}
             className="d-block w-100"
-            src="/slide/tree-planting.jpg"
+            src="/slide/slide1.webp"
             alt="Second slide"
           />
 
@@ -63,7 +63,7 @@ const HomeCarousel = () => {
           <img
             style={{ width: "100%" }}
             className="d-block w-100"
-            src="/slide/web3-business.png"
+            src="/slide/slide3.webp"
             alt="Third slide"
           />
           <Link>
@@ -92,13 +92,15 @@ const HomeCarousel = () => {
           <div
             style={{
               backgroundColor: "white",
-              padding: "60px",
-              "padding-left": "120px",
-              "padding-right": "120px",
+              padding: "40px",
+              "padding-left": "100px",
+              "padding-right": "100px",
             }}
           >
-            <h3 style={{ color: "green" }}>Sustainability Made Easy</h3>
             <img src="/Greenerre word.jpg" width="500px" alt="site logo" />
+            <h3 style={{ color: "green", marginLeft: "20px" }}>
+              Sustainability Made Easy
+            </h3>
           </div>
         </div>
       </div>
