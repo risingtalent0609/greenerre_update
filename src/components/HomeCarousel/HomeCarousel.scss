@@ -111,6 +111,17 @@
     width: 100px !important;
     height: 100px !important;
   }
+
+  .banner-description {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    background-color: #000000d8;
+    padding: 20px;
+    padding-left: 30px;
+    color: white;
+    font-size: 18px;
+  }
 }
 
 @media only screen and (min-width: 600px) {
@@ -123,6 +134,17 @@
   .my_pic {
     width: 130px !important;
     height: 130px !important;
+  }
+
+  .banner-description {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    background-color: #000000d8;
+    padding: 20px;
+    padding-left: 30px;
+    color: white;
+    font-size: 28px;
   }
 }
 
@@ -137,6 +159,17 @@
     width: 140px !important;
     height: 140px !important;
   }
+
+  .banner-description {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    background-color: #000000d8;
+    padding: 20px;
+    padding-left: 30px;
+    color: white;
+    font-size: 30px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -150,6 +183,17 @@
     width: 180px !important;
     height: 180px !important;
   }
+
+  .banner-description {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    background-color: #000000d8;
+    padding: 20px;
+    padding-left: 30px;
+    color: white;
+    font-size: 35px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -162,5 +206,16 @@
   .my_pic {
     width: 200px !important;
     height: 200px !important;
+  }
+
+  .banner-description {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    background-color: #000000d8;
+    padding: 20px;
+    padding-left: 30px;
+    color: white;
+    font-size: 40px;
   }
 }
